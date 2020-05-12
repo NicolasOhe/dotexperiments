@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(209, 209, 255); 
+    margin: 0; 
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 3rem;
+    padding: 0.7rem;
+    
+}
+
+section {
+    background-color: rgba(255, 255, 255,0.2); 
+    padding: 0.7rem;
+    margin: 1rem 0.5rem;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+section:hover {
+    background-color: rgba(255, 255, 255,0.3); 
+}
+
+
+h3 {
+    background-color: white;
+    display: inline-block;
+    padding: 0 0.5rem;
+
+}
+section:hover  h3 {
+   text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+section p {
+    background-color: rgba(255,255,255,0.7);
+    padding: 0 0.5rem;
+}
+
+img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
