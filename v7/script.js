@@ -191,7 +191,7 @@ class Dot {
         })
         dot.drawDot("yellow")
       })
-      debugger
+     
       triade.forEach((dot) => dot.drawDot("black"))
 
       if (dif < Math.PI && !collision) {

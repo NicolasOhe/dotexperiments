@@ -242,9 +242,9 @@ class Swarm {
     this.dots.forEach((dot) => dot.findNeighboors(this.dots))
     this.drawer.clear()
 
-    console.time()
+    //console.time()
     this.dots[0].group()
-    console.timeEnd()
+    //console.timeEnd()
 
     //this.connections.forEach(([from, to]) => this.drawer.drawLine(from,to))
     //this.triangles.forEach((t) => this.drawer.drawTriangle(...t))
@@ -258,7 +258,7 @@ class Swarm {
     this.connections.clean()
     this.triangles.clean()
     const elapsed = performance.now()- start
-    console.log("Time for one iteration:", elapsed, "ms")
+    // console.log("Time for one iteration:", elapsed, "ms")
     if (move) requestAnimationFrame(this.animate.bind(this))
   }
 }

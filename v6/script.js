@@ -135,9 +135,6 @@ class Dot {
       (a, b) => b.angle - a.angle
     )
 
-    orderedByAngle.forEach((o) => console.log(o.angle))
-    console.log("---")
-
     for (let neighboor of orderedByAngle) {
       await delay(() => this.drawLine(neighboor.dot), 6)
     }
